@@ -167,7 +167,7 @@ section{
 } 
 .stranger-bg{
     width: 60%;
-    transform: scale(2);
+    transform: scale(2.2);
     position: relative;
 }
 .phone{
@@ -176,38 +176,48 @@ section{
 }
 .block{
     width: 280px;
+    height: 14vh;
     padding: 6px 16px;
     border: 2px solid rgba(211, 211, 211, 0.568);
     position: absolute;
     bottom: 4%;
     left: 50%;
-    transform: translate(-80%,80%);
+    transform: translate(-78%,100%);
     background-color: black;
-    border-radius: 8px;
+    border-radius: 10px;
     display: flex;
-    gap: 20px;
+    justify-content: space-between;
     align-items: center;
     
 }
 .stranger-img{
     height: 5rem;
+    /* margin-left: 12px; */
+    margin-top: 3px;
+    /* width: 20%; */
 }
 .details{
     color: white;
     display: flex;
     flex-grow: 1;
-    flex-direction: column;
+    /* flex-direction: row; */
+}
+.download{
+    width: 16%;
+    margin-top: -10px;
+}
+.side{
+    display: flex;
+    gap: 10px;
 }
 .font{
-    font-size: 16px;
+    font-size: 15px;
     font-weight: bolder;
     /* left: ; */
 }
-/* .sub-heading1{
-    font-size: 24px;
-    color: white;
-    font: weight 300rem;;
-} */
+.m-top{
+    margin: 16px;
+}
 .real-tv1{
     width: 440px;
     position: relative;
